@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/icon.png">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="#"><i class="fas fa-images"></i><span>User Photos</span></a>
+            <a href="#"><i class="fas fa-book"></i><span>Documentation</span></a>
+            <a href="#"><i class="fas fa-list"></i><span>Change Log</span></a>
+            <a href="#"><i class="fas fa-chart-bar"></i><span>Stats & Graphs</span></a>
+            <a href="#"><i class="fas fa-donate"></i><span>Donate</span></a>
+            <a href="#"><i class="fas fa-copyright"></i><span>Copyright Notice</span></a>
+            <a href="#"><i class="fas fa-pencil-ruler"></i><span>Photoshop Extension</span></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="Generator">
+                <p style="font-size: 40px; font-weight: bolder;">RANDOM USER GENERATOR</p>
+                <p style="font-size: 20px; margin-top: -20px;">A free, <a href="https://randomuser.me/" style="text-decoration: none; color: aquamarine;"><u>open-source</u></a> API for generating random user data. Like Lorem Ipsum, but for people.</p>
+                <p><i class="fab fa-twitter"></i> Follow us @randomapi</p>
+            <div class="user-profile">
+                <div class="container-user">
+                    <div id="user-container" style="display: block;">
+                        <img id="user-img" alt="User Image">
+                        <div id="hover-data" style="font-size: 24px; color: rgb(255, 240, 240); margin-bottom: 1rem;"></div>
+                        <p id="user-display"><span id="display-info"></span></p>
+                    </div>
+
+                    <div class="icons">
+                        <span class="icon" id="icon-name">&#128100;</span>
+                        <span class="icon" id="icon-email">&#128231;</span>
+                        <span class="icon" id="icon-birthday">&#128197;</span>
+                        <span class="icon" id="icon-location">&#127968;</span>
+                        <span class="icon" id="icon-phone">&#128222;</span>
+                        <span class="icon" id="icon-password">&#128274;</span>
+                    </div>
+                </div>
+            </div>
+            <footer class="container">
+                <p class="sponser">
+                    <p style="color: rgb(255, 255, 255); font-size: 24px; font-family: Verdana;">Sponsored</p>
+                    <p style="font-family: Verdana; font-weight: bolder; font-size: 32px; color: rgb(255, 255, 255); letter-spacing: 1px; font-weight: lighter; margin-top: -5px;">
+                        Random API</p>
+                    <p style="color: rgb(255, 255, 255); font-size: 23px; margin-top: -4px;">Want to create your own
+                        <b>customized</b> generator for your application?
+                        Check out our other service RandomAPI!</br>
+                    <h2></h2><button id="learn-more-btn">&nbsp; Learn More &nbsp;</button>
+                </p>
+            </footer>
+            <p style="margin-top: 10px;">Copyright 2024 @adityadash</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
